@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import 'rxjs/add/operator/map';
+import { MessageService } from './message.service';
 
 @Component({
   selector: 'app-root',
